@@ -12,7 +12,8 @@
     <artifactId>swagger-codegen-maven-plugin</artifactId>
     <name>swagger-codegen (maven-plugin)</name>
     <packaging>maven-plugin</packaging>
-    <description>maven plugin to build modules from swagger codegen</description>
+    <description>maven plugin to build modules from swagger codegen. With bugfix for Spring-boot server REST code generation. Based on master, rev. 5f44486.</description>
+    <url>https://github.com/dvponomarev/swagger-codegen.git</url>
     <prerequisites>
         <maven>3.2.5</maven>
     </prerequisites>
